@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.yellow{
+    color:rgb(231, 160, 34) ;
+}
+.showcase-container{
+    background-image:linear-gradient(rgba(0,0,0,0.7)rgba(0,0,0,0.7)) 
+    ,url(../img/jonathan-kemper-l14B8742XV0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgba(0,0,0,0.9);
+    padding:2rem 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        color: #fff;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    nav{
+        flex-basis: 60%;
+    }
+    .nav{
+        display: flex;
+        list-style: none;
+    }
+
+    .nav a{
+        color: #fff;
+        text-decoration: none;
+        margin-left: 3rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        &:hover{
+            color:rgb(231, 160, 34)  ;
+        }
+    }
+}
+
+.hero{
+    margin-top: 25%;
+    text-align: center;
+    color: #fff;
+    h1{
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+    p{
+        width: 60%;
+        margin: 2rem auto 0;
+        font-size: 1.25rem;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+}
+.about{
+    margin: 4rem 0 2rem;
+}
+.container-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.column-1, .column-2{
+    flex-basis: 45%;
+}
+.column-1{
+    h2{
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        color: rgba(0,0,0,0.9);
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: 1.25rem;
+        color: rgba(0,0,0,0.7);
+    }
+}
+.column-2{
+    background-color: rgb(231, 160, 34);
+    padding: 2rem;
+    color: #fff;
+    font-weight: bold;
+    .title{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
